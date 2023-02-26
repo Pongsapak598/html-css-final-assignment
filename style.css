@@ -27,16 +27,17 @@ ul {
 
 .top-content {
     background-color: #1f2937;
-    padding: 32px 10%;
+    padding: 32px 10% 0px 10%;
     color: white;
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
 .top-content-info {
     max-width: 500px;
     margin-right: 10px;
+    margin-bottom: 48px;
 }
 
 .top-content-info h1 {
@@ -52,6 +53,7 @@ ul {
     max-width: 400px;
     max-height: 234px;
     margin-left: 20px;
+    margin-bottom: 24px;
     border-radius: 10px;
 }
 
@@ -64,3 +66,43 @@ ul {
     border-style: none;
 }
 
+.bottom-info {
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 10% 120px 10%;
+}
+
+.bottom-info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 56px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-info-images {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.box-img {
+    text-align: center;
+    width: 180px;
+}
+
+.box-img img {
+    height: 180px;
+    width: 180px;
+    border-radius: 16px;
+    border: #3882f6 solid;
+    border-width: 5px;
+}
+
+.box-img p {
+    margin: 5px 0px;
+    font-size: 18px;
+}
